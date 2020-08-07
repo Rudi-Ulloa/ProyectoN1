@@ -1,10 +1,19 @@
-<mvc:View 
-	controllerName="ProyectoN1.SAPUI5.controller.App"
-	xmlns="sap.m" 
-	xmlns:mvc="sap.ui.core.mvc">
-	<Button text="{i18n>showHelloButtonText}" press=".onShowHola"/>
-	<Input value="{/recip/name}"
-		description="Hola {/recip/name}"
-		valueLiveUpdate="true"
-		width="60%"/>
+<mvc:View controllerName="ProyectoN1.SAPUI5.controller.App" xmlns="sap.m" xmlns:mvc="sap.ui.core.mvc" displayblock="true">
+	<Shell>
+	<App class="myCustomCss">
+		<pages>
+			<Page title="{i18n>TituloPagina}">
+				<content>
+					<Panel headerText="{i18n>holaPanelTitulo}" class="sapUiResponsiveMargin" width="auto">
+					<content>
+							<Button text="{i18n>showHelloButtonText}" press=".onShowHola" class="sapUiSmallMarginEnd"/>
+							<Input value="{/recip/name}" valueLiveUpdate="true" width="60%"/>
+							<Text text="Hola {/recip/name}" class="sapUiSmallMargin myCustomText sapTheminglight-asColor"/>
+					</content>
+					</Panel>
+				</content>
+			</Page>
+		</pages>
+	</App>
+	</Shell>
 </mvc:View>
