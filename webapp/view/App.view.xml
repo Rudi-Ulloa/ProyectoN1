@@ -1,6 +1,6 @@
 <mvc:View controllerName="ProyectoN1.SAPUI5.controller.App" xmlns="sap.m" xmlns:mvc="sap.ui.core.mvc" displayblock="true">
 	<Shell>
-	<App class="myCustomCss">
+	<App class="myStiloCss">
 		<pages>
 			<Page title="{i18n>TituloPagina}">
 				<content>
@@ -8,7 +8,7 @@
 					<content>
 							<Button text="{i18n>showHelloButtonText}" press=".onShowHola" class="sapUiSmallMarginEnd"/>
 							<Input value="{/recip/name}" valueLiveUpdate="true" width="60%"/>
-							<Text text="Hola {/recip/name}" class="sapUiSmallMargin myCustomText sapTheminglight-asColor"/>
+							<Text text="Hola {/recip/name}" class="sapUiSmallMargin myStiloText sapTheminglight-asColor"/>
 					</content>
 					</Panel>
 				</content>
