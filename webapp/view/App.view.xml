@@ -3,17 +3,14 @@
 	<App class="myStiloCss">
 		<pages>
 			<Page title="{i18n>TituloPagina}">
+				<headerContent>
+				<Button id="holaDialogHeader" icon="sap-icon://world" press=".onOpenHeader" class="sapUiSmallMarginEnd"/>
+				</headerContent>
 				<content>
-					<Panel headerText="{i18n>holaPanelTitulo}" class="sapUiResponsiveMargin" width="auto">
-					<content>
-							<Button text="{i18n>showHelloButtonText}" press=".onShowHola" class="sapUiSmallMarginEnd"/>
-							<Input value="{/recip/name}" valueLiveUpdate="true" width="60%"/>
-							<Text text="Hola {/recip/name}" class="sapUiSmallMargin myStiloText sapTheminglight-asColor"/>
-					</content>
-					</Panel>
+				<mvc:XMLView viewName="ProyectoN1.SAPUI5.view.HolaPanel"/>
 				</content>
 			</Page>
 		</pages>
 	</App>
 	</Shell>
-</mvc:View>
+</mvc:View> 
