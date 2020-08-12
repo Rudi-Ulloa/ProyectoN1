@@ -4,10 +4,11 @@
 		<pages>
 			<Page title="{i18n>TituloPagina}">
 				<headerContent>
-				<Button id="holaDialogHeader" icon="sap-icon://world" press=".onOpenHeader" class="sapUiSmallMarginEnd"/>
+					<Button id="holaDialogHeader" icon="sap-icon://world" press=".onOpenHeader" class="sapUiSmallMarginEnd"/>
 				</headerContent>
 				<content>
 				<mvc:XMLView viewName="ProyectoN1.SAPUI5.view.HolaPanel"/>
+				<mvc:XMLView viewName="ProyectoN1.SAPUI5.view.InvoiceList"/>
 				</content>
 			</Page>
 		</pages>

@@ -1,0 +1,24 @@
+{
+	"Invoices": [{
+		"ProductName": "HDD Samsung",
+		"Quantity": 23,
+		"ExtendedPrice": 12.4500,
+		"ShiperName": "Func",
+		"ShiperDate": "2015-01-01",
+		"Status": "A"
+	}, {
+		"ProductName": "HDD HP",
+		"Quantity": 3,
+		"ExtendedPrice": 45.4500,
+		"ShiperName": "Func",
+		"ShiperDate": "2015-01-02",
+		"Status": "B"
+	}, {
+		"ProductName": "HDD LG",
+		"Quantity": 21,
+		"ExtendedPrice": 7863.4500,
+		"ShiperName": "ACME",
+		"ShiperDate": "2015-01-03",
+		"Status": "B"
+	}]
+}
