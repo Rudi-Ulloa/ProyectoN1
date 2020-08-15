@@ -1,17 +1,16 @@
-<mvc:View controllerName="ProyectoN1.SAPUI5.controller.App" xmlns="sap.m" xmlns:mvc="sap.ui.core.mvc" displayblock="true">
+<mvc:View xmlns="sap.m" xmlns:mvc="sap.ui.core.mvc" controllerName="ProyectoN1.SAPUI5.controller.App" displayblock="true">
 	<Shell>
 	<App class="myStiloCss">
-		<pages>
-			<Page title="{i18n>TituloPagina}">
+		<pages><Page title="{i18n>TituloPagina}">
 				<headerContent>
 					<Button id="holaDialogHeader" icon="sap-icon://world" press=".onOpenHeader" class="sapUiSmallMarginEnd"/>
 				</headerContent>
 				<content>
 				<mvc:XMLView viewName="ProyectoN1.SAPUI5.view.HolaPanel"/>
 				<mvc:XMLView viewName="ProyectoN1.SAPUI5.view.InvoiceList"/>
-				</content>
+		    	</content>
 			</Page>
 		</pages>
 	</App>
 	</Shell>
-</mvc:View> 
+</mvc:View>

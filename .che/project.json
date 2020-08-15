@@ -1,1 +1,1 @@
-{"type":"sap.web","builders":{"configs":{}},"runners":{"configs":{}},"attributes":{},"mixinTypes":[]}
+{"type":"sap.web","builders":{"configs":{}},"runners":{"configs":{}},"attributes":{"sap.watt.common.setting":["{\"layout\":{\"snapshot\":{\"viewport\":{\"x\":-643.9168640405301,\"y\":-285.08301547384144,\"scale\":0.8558910449100005},\"collapsedPorts\":[],\"expandedShapes\":[],\"selection\":[\"_SAPUI5_webapp_view_HolaPanel_view_xml\"],\"focus\":\"_SAPUI5_webapp_view_HolaPanel_view_xml\"}}}"]},"mixinTypes":[]}
