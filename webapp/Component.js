@@ -8,7 +8,7 @@ sap.ui.define([
 
 	return UIComponent.extend("ProyectoN1.SAPUI5.Component", {
 
-		matadata: {
+		metadata: {
 			manifest: "json"
 		},
 		init: function () {
