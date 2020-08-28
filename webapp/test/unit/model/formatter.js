@@ -28,6 +28,6 @@ sap.ui.define([
 		//assert
 		assert.strictEqual(fnformat("A"), "Nuevo", "El Largo para texto A es correcto");
 		assert.strictEqual(fnformat("B"), "En Proceso", "El Largo para texto B es correcto");
-		assert.strictEqual(fnformat("C"), "Correcto", "El Largo para texto C es correcto");
+		assert.strictEqual(fnformat("C"), "Terminado", "El Largo para texto C es correcto");
 	});
 });

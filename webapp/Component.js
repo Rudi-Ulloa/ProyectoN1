@@ -24,7 +24,7 @@ sap.ui.define([
 		},
 
 		exit: function () {
-			this._holaDialog.distroy();
+			this._holaDialog.destroy();
 			delete this._holaDialog;
 		},
 		

@@ -1,0 +1,13 @@
+<mvc:View xmlns="sap.m" xmlns:mvc="sap.ui.core.mvc" controllerName="ProyectoN1.SAPUI5.controller.App" displayblock="true">
+	<Page title="{i18n>TituloPagina}">
+		<headerContent>
+			<Button id="holaDialogHeader" icon="sap-icon://world" press=".onOpenHeader" class="sapUiSmallMarginEnd"/>
+		</headerContent>
+		<content>
+			<mvc:XMLView viewName="ProyectoN1.SAPUI5.view.HolaPanel"/>
+			<mvc:XMLView viewName="ProyectoN1.SAPUI5.view.InvoiceList"/>
+			<mvc:XMLView viewName="ProyectoN1.SAPUI5.view.CustomerList"/>
+		</content>
+	</Page>
+</pages>
+</mvc:View>
